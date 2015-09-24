@@ -9,6 +9,9 @@ html, body{
 /**{
 	font-family: 'Roboto', sans-serif;
 }*/
+a{
+	color: #0d8ef7;
+}
 a:hover{
 	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -19,7 +22,7 @@ h1, h2, h3 ,h4, h5 {
 	font-weight: 400;
 }
 header{
-	background-image: url("../img/banner.jpg");
+	background-image: url("../img/banner-mn-grad.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 670px;
@@ -44,7 +47,7 @@ header nav{
 }
 header .nav a{
 	color: #30353c;
-	font-size: 18px;
+	font-size: 17px;
 	padding: 20px 20px;
 }
 header .nav a:hover{
@@ -231,7 +234,7 @@ footer .form-control{
     line-height: 50px;
     padding: 0 12px;
     margin-bottom: 14px;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 0;
     vertical-align: middle;
     box-shadow: none;
@@ -355,13 +358,38 @@ footer .submit{
 .bio .container h4{
 	color: #ffc10e;
 }
-
-
-
-
-
-
-
+.hidetext p{
+	height: 100px;
+	overflow: hidden;
+	line-height: 20px;
+}
+.hidetext p:hover{
+	height: auto;
+}
+.hidetext h3{
+	line-height: 28px;
+    margin: 25px 0 20px;
+}
+.page .bannertext{
+	margin: 80px auto;
+	color: #30353c;
+}
+.page header{
+	min-height: 320px;
+}
+.level{
+	height: 16px !important;
+	margin-top: 15px;	
+}
+.list-group-item:first-child, .list-group-item:last-child{
+	border-radius: 0;
+}
+.list-group-item.active{
+	background-color: #0d8ef7;
+}
+.tutorial iframe{
+	
+}
 
 
 
