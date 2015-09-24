@@ -22,7 +22,7 @@ h1, h2, h3 ,h4, h5 {
 	font-weight: 400;
 }
 header{
-	background-image: url("../img/banner-mn-grad.jpg");
+	background-image: url("../img/bad.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 670px;
@@ -57,12 +57,12 @@ header .nav .button{
 	margin-right: 15px;
 	color: #0d8ef7;
 	border: 2px solid #0d8ef7;
-	padding: 10px 40px;
+	padding: 7px 40px;
 	font-size: 16px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	position: absolute;
 	border-radius: 0;
-	
+	top:10px;
 	z-index: 1002;
 }
 header .nav a.button:hover{
@@ -178,12 +178,13 @@ right: 0;
   padding-bottom: 0
 }
 .bannertext{
-    margin-top: 240px;
+    margin-top: 140px;
     margin-left: 50px;
     width: 398px;
+    font-weight: 300;
 }
 .bannertext h2{
-	font-weight: 400;
+	font-weight: 300;
 }
 .btn-default{
 	color: #30353c;
@@ -319,10 +320,6 @@ footer .submit{
 .tutorial .side .active{
 	background-color: #32d37a;
 }
-.tutorial .side .list-group-item:hover .badge, .tutorial .side .active .badge{
-	background-image: url("../img/play-white.png");
-	color: #fff;
-}
 .tutorial .container h4{
 	color: #32d37a;
 }
@@ -358,17 +355,44 @@ footer .submit{
 .bio .container h4{
 	color: #ffc10e;
 }
-.hidetext p{
-	height: 100px;
-	overflow: hidden;
-	line-height: 20px;
+.tutorial .side .list-group-item:hover .badge, .tutorial .side .active .badge{
+	background-image: url("../img/play-white.png");
+	color: #fff;
 }
-.hidetext p:hover{
-	height: auto;
-}
-.hidetext h3{
-	line-height: 28px;
+.partners h3{
+	
     margin: 25px 0 20px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.news h3{
+	font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.news img{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.news a{
+	color: #30353c;
+	font-size: 13px;
+}
+.news .col-md-6{
+	padding: 15px;
+}
+.news .col-md-6:hover a{
+	color: #fff;
+}
+.news .col-md-6:hover{
+	background-color: #2f343c;
+	color: #fff;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 .page .bannertext{
 	margin: 80px auto;
@@ -378,8 +402,8 @@ footer .submit{
 	min-height: 320px;
 }
 .level{
-	height: 16px !important;
-	margin-top: 15px;	
+	height: 22px !important;
+	margin: 15px 3px 0;	
 }
 .list-group-item:first-child, .list-group-item:last-child{
 	border-radius: 0;
@@ -388,7 +412,7 @@ footer .submit{
 	background-color: #0d8ef7;
 }
 .tutorial iframe{
-	
+
 }
 
 
